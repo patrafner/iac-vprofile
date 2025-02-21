@@ -21,6 +21,8 @@ env:
  AWS_REGION: us-east-1
  EKS_CLUSTER: vprofile-eks
 
+
+ #jobs and steps needed . Terraform will be lauched using ubuntu when tehre is a change.
 jobs:
    terraform:
      name: "Apply terraform code changes"
